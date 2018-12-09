@@ -1,1 +1,5 @@
-
+cd Rack/plugins/
+git clone https://github.com/eres-j/VCVRack-plugin-JE.git
+cd VCVRack-plugin-JE
+git submodule update --init --recursive
+make -j
